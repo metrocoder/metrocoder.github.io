@@ -11,18 +11,44 @@
     <!-- Bootstrap -->
 	  <link href="css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
+	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	  <link href="css/test.css" rel="stylesheet">
+
   </head>
   <body>
 
-	<div class="container-fluid">
-		<nav class="navbar navbar-inverse navbar-fixed-top">
+	<!--<div class="container-fluid">-->
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#"> Edwin Feliberty Jr. Portfolio </a>
+				</div>
+				<div class="collapse navbar-collapse" id="myNavbar">
+					<ul class="nav navbar-nav">
+						<li class="active"><a class="glyphicon glyphicon-home" href="#"> Home</a></li>
+						<li><a class="glyphicon glyphicon-user" href="#skills"> Skills</a></li>
+						<li><a class="glyphicon glyphicon-qrcode" href="#code"> Portfolio</a></li>
+						<li><a class="glyphicon glyphicon-envelope" href="#contact"> Contact</a></li>
+					</ul>
+					<!--<ul class="nav navbar-nav navbar-right">
+						<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+						<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+					</ul>-->
+				</div>
+			</div>
+		</nav>
+		<!--The stuff below is original-->
+		<!--<nav class="navbar navbar-inverse navbar-fixed-top ">
 			<div class="container-fluid">
 				<div class="navbar-header">
 					<a class="navbar-brand" href="#"> Edwin Feliberty Jr. Portfolio </a>
 				</div>
-				<ul class="nav navbar-nav">
+				<ul class="nav navbar-nav ">
 					<li class="active"><a class="glyphicon glyphicon-home" href="#"> Home</a></li>
 					<li><a class="glyphicon glyphicon-user" href="#skills"> Skills</a></li>
 					<li><a class="glyphicon glyphicon-qrcode" href="#code"> Portfolio</a></li>
@@ -30,7 +56,7 @@
 				</ul>
 			</div>
 		</nav>
-
+-->
 	<div class="header">
 			<div id="card" class="col-xs-offset-3 col-sm-offset-2 col-xs-6 col-sm-3 col-md-2">
 				<div id="circle-img" class="thumbnail">
@@ -44,7 +70,7 @@
 		</div>
 	</div>
 
-	</div>
+	<!--</div>-->
 
 	<section id="skills">
 		<div class="container">
@@ -161,17 +187,17 @@
                 <div class="col-md-4">
                     <ul class="list-inline social-buttons">
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://twitter.com/MetroCoder">
                                 <i class="fa fa-twitter"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
-                                <i class="fa fa-facebook"></i>
+                            <a href="https://www.instagram.com/metrocoder/">
+                                <i class="fa fa-instagram"></i>
                             </a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">
+                            <a href="https://www.linkedin.com/in/feliberty/">
                                 <i class="fa fa-linkedin"></i>
                             </a>
                         </li>
@@ -183,7 +209,7 @@
                             <a href="https://metrocoder.com">Personal Blog</a>
                         </li>
                         <li class="list-inline-item">
-                            <a href="#">Terms of Use</a>
+                            <a href="./EF-Resume.pdf">Resume</a>
                         </li>
                     </ul>
                 </div>
