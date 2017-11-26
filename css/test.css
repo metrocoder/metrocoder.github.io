@@ -8,6 +8,9 @@
   padding: 0px;
 bottom:20px;
 }
+.thumbnail .caption {
+	padding: 0;
+}
 
 .navbar
 {
