@@ -58,7 +58,7 @@ p
 {
 	line-height:1.75
 }
-a
+/*a
 {
 	color:#fed136
 }
@@ -69,7 +69,7 @@ a:hover
 .text-primary
 {
 	color:#fed136!important
-}
+}*/
 h1,h2,h3,h4,h5,h6
 {
 	font-weight:700;
@@ -98,6 +98,7 @@ section h3.section-subheading
 {
 	section{padding:150px 0}
 }
+/*
 .btn{
 	font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif;
 	font-weight:700
@@ -105,11 +106,11 @@ section h3.section-subheading
 .btn-xl
 {font-size:18px;padding:20px 40px
 }
-.btn-primary
+!*.btn-primary
 {
 	background-color:#fed136;
 	border-color:#fed136
-}
+}*!
 
 .btn-primary:active,.btn-primary:focus,.btn-primary:hover
 {
@@ -119,8 +120,10 @@ section h3.section-subheading
 .btn-primary:active,.btn-primary:focus
 {
 	box-shadow:0 0 0 .2rem rgba(254,209,55,.5)!important}::-moz-selection{background:#fed136;text-shadow:none}::selection{background:#fed136;text-shadow:none}img::selection{background:0 0}img::-moz-selection{background:0 0}body{-webkit-tap-highlight-color:#fed136}
+*/
 
 
+/*
 #mainNav
 {
 	background-color:#212529
@@ -196,6 +199,7 @@ section h3.section-subheading
 		font-size:1.25em;
 		padding:12px 0}
 }
+*/
 
 .service-heading{
 	margin:15px 0;
@@ -225,7 +229,7 @@ section h3.section-subheading
 	-moz-transition:all ease .5s;
 	transition:all ease .5s;
 	opacity:0;
-	background:rgba(254,209,54,.9)
+	/*background:rgba(254,209,54,.9)*/
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover
@@ -305,7 +309,7 @@ ul.social-buttons li a
 
 ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li a:hover
 {
-	background-color:#fed136
+	background-color:#008CBA;
 }
 
 .overlay {
